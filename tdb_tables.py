@@ -24,4 +24,8 @@ class Habitat(Base):
 engine = create_engine('sqlite:///telanganahabitatdb.db')
 Base.metadata.create_all(engine)
 
+def display():
+    a= [1,2,3,4]
+    print(a)
+
 
